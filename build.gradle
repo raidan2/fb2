@@ -1,0 +1,171 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.jooq:jooq-codegen:3.18.5'
+        classpath 'org.xerial:sqlite-jdbc:3.42.0.0'
+        classpath 'com.google.code.gson:gson:2.8.9'
+    }
+}
+
+plugins {
+    id 'java'
+    id 'idea'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+    id 'org.graalvm.buildtools.native' version '0.9.28'
+}
+
+group 'ru.raidan'
+version '1.0-SNAPSHOT'
+
+sourceSets.main.java.srcDirs += ['src/generated/java']
+
+application {
+    mainClass = 'ru.raidan.books.ui.Main'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.vavr:vavr:0.10.4'
+    implementation 'org.xerial:sqlite-jdbc:3.42.0.0'
+    implementation 'org.jooq:jooq:3.18.5'
+    implementation 'org.jsoup:jsoup:1.16.2'
+
+    implementation 'com.google.code.findbugs:jsr305:3.0.2'
+
+    implementation 'org.slf4j:slf4j-api:2.0.7'
+    runtimeOnly 'ch.qos.logback:logback-classic:1.4.14'
+
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.30'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.10.0'
+    testImplementation 'org.testfx:testfx-junit5:4.0.17'
+    testImplementation 'org.hamcrest:hamcrest:2.2'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+}
+
+test {
+    useJUnitPlatform()
+    maxHeapSize = '1G'
+    jvmArgs += ['--add-opens', 'javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED']
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+idea {
+    module {
+        downloadSources = true
+    }
+}
+
+javafx {
+    sdk = '/home/miroslav/bin/javafx-sdk-21.0.1'
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+graalvmNative {
+    binaries {
+        main {
+            mainClass = 'ru.raidan.books.ui.Main'
+            resources.autodetect()
+
+            buildArgs.add("-O4")
+            buildArgs.add("-march=native")
+            buildArgs.add("-H:+AddAllCharsets")
+            buildArgs.add("-R:MaxHeapSize=512m")
+        }
+    }
+    toolchainDetection = false
+}
+
+
+import com.google.gson.GsonBuilder
+import com.google.gson.JsonParser
+import org.jooq.codegen.GenerationTool
+import org.jooq.meta.jaxb.*
+
+import java.util.stream.Collectors
+
+tasks.register('generateJooq') {
+    doLast {
+        var rootDir = project.projectDir.toString()
+
+        def generate = { packageName, files ->
+            var scripts = files.stream()
+                    .map(name -> "$rootDir/src/main/resources/sql/$packageName/$name")
+                    .map(name -> file(name).text)
+                    .collect(Collectors.joining("\n"))
+
+            var databaseFile = "$rootDir/${packageName}.tmp"
+            new File(databaseFile).delete()
+            GenerationTool.generate(new Configuration()
+                    .withJdbc(new Jdbc()
+                            .withUrl("jdbc:sqlite:$databaseFile")
+                            .withInitScript(scripts)
+                            .withInitSeparator(";"))
+                    .withGenerator(new Generator()
+                            .withDatabase(new Database()
+                                    .withForcedTypes(new ForcedType()
+                                            .withName("INT8")
+                                            .withIncludeExpression(".*\\.(CREATED|UPDATED|SIZE)")))
+                            .withGenerate(new Generate()
+                                    .withNullableAnnotation(true)
+                                    .withPojos(true))
+                            .withTarget(new Target()
+                                    .withPackageName("ru.raidan.books.db.model.$packageName")
+                                    .withDirectory("$rootDir/src/generated/java")))
+            )
+            new File(databaseFile).delete()
+        }
+
+        generate("library", ["books.sql", "authors.sql", "settings.sql"])
+        generate("cache", ["books.sql", "workspace.sql"])
+    }
+}
+
+tasks.register('updateNativeImage') {
+    mustRunAfter 'metadataCopy'
+    doLast {
+        def gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create()
+        def transform = { File file ->
+            println "Updating $file"
+
+            def obj = JsonParser.parseString(file.text)
+            if (file.name == 'reflect-config.json') {
+                def defaultFile = new File(file.getParentFile().getAbsolutePath() + '/../../json/default-reflect-config.json')
+                def defaultObj = JsonParser.parseString(defaultFile.text)
+                defaultObj.each {
+                    obj.remove(it)
+                }
+                obj += defaultObj
+            }
+            file.text = gson.toJson(obj)
+        }
+
+        project.sourceSets.main.resources.srcDirs.each { dir ->
+            def file = new File(dir.toString() + '/META-INF/native-image')
+            if (file.exists()) {
+                file.eachFile {
+                    if (it.name.endsWith('.json')) {
+                        transform(it)
+                    }
+                }
+            }
+        }
+    }
+}

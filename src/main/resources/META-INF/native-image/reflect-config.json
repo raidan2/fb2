@@ -1,0 +1,3468 @@
+[
+  {
+    "name": "[D"
+  },
+  {
+    "name": "[Ljava.lang.Object;"
+  },
+  {
+    "name": "[Ljavafx.collections.transformation.SortedList$Element;"
+  },
+  {
+    "name": "ch.qos.logback.classic.encoder.PatternLayoutEncoder",
+    "queryAllPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.joran.SerializedModelConfigurator",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.DateConverter",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.KeyValuePairConverter",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.LevelConverter",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.LineSeparatorConverter",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.LoggerConverter",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.MessageConverter",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.ThreadConverter",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.util.DefaultJoranConfigurator",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.ConsoleAppender",
+    "queryAllPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.OutputStreamAppender",
+    "methods": [
+      {
+        "name": "setEncoder",
+        "parameterTypes": [
+          "ch.qos.logback.core.encoder.Encoder"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.encoder.Encoder",
+    "methods": [
+      {
+        "name": "valueOf",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.encoder.LayoutWrappingEncoder",
+    "methods": [
+      {
+        "name": "setParent",
+        "parameterTypes": [
+          "ch.qos.logback.core.spi.ContextAware"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.pattern.PatternLayoutEncoderBase",
+    "methods": [
+      {
+        "name": "setPattern",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.spi.ContextAware",
+    "methods": [
+      {
+        "name": "valueOf",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.glass.ui.Robot"
+  },
+  {
+    "name": "com.sun.glass.ui.gtk.GtkPlatformFactory",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.sun.javafx.application.ParametersImpl",
+    "fields": [
+      {
+        "name": "params"
+      }
+    ],
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.util.List"
+        ]
+      },
+      {
+        "name": "registerParameters",
+        "parameterTypes": [
+          "javafx.application.Application",
+          "javafx.application.Application$Parameters"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.javafx.font.freetype.FTFactory",
+    "methods": [
+      {
+        "name": "getFactory",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.sun.javafx.logging.PrintLogger",
+    "methods": [
+      {
+        "name": "createInstance",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.sun.javafx.logging.jfr.JFRPulseLogger",
+    "methods": [
+      {
+        "name": "createInstance",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.sun.javafx.reflect.Trampoline",
+    "methods": [
+      {
+        "name": "invoke",
+        "parameterTypes": [
+          "java.lang.reflect.Method",
+          "java.lang.Object",
+          "java.lang.Object[]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.javafx.scene.control.skin.Utils",
+    "methods": [
+      {
+        "name": "getResource",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.javafx.tk.quantum.QuantumToolkit",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.sun.prism.GraphicsPipeline",
+    "methods": [
+      {
+        "name": "getFontFactory",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPipeline",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.sun.prism.es2.ES2Pipeline",
+    "methods": [
+      {
+        "name": "getInstance",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.sun.prism.es2.X11GLFactory",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.sun.prism.shader.FillPgram_Color_Loader",
+    "methods": [
+      {
+        "name": "loadShader",
+        "parameterTypes": [
+          "com.sun.prism.ps.ShaderFactory",
+          "java.io.InputStream"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.prism.shader.FillPgram_LinearGradient_PAD_Loader",
+    "methods": [
+      {
+        "name": "loadShader",
+        "parameterTypes": [
+          "com.sun.prism.ps.ShaderFactory",
+          "java.io.InputStream"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.prism.shader.Solid_Color_Loader",
+    "methods": [
+      {
+        "name": "loadShader",
+        "parameterTypes": [
+          "com.sun.prism.ps.ShaderFactory",
+          "java.io.InputStream"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.prism.shader.Solid_TextureFirstPassLCD_Loader",
+    "methods": [
+      {
+        "name": "loadShader",
+        "parameterTypes": [
+          "com.sun.prism.ps.ShaderFactory",
+          "java.io.InputStream"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.prism.shader.Solid_TextureRGB_Loader",
+    "methods": [
+      {
+        "name": "loadShader",
+        "parameterTypes": [
+          "com.sun.prism.ps.ShaderFactory",
+          "java.io.InputStream"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.prism.shader.Solid_TextureSecondPassLCD_Loader",
+    "methods": [
+      {
+        "name": "loadShader",
+        "parameterTypes": [
+          "com.sun.prism.ps.ShaderFactory",
+          "java.io.InputStream"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.prism.shader.Texture_Color_Loader",
+    "methods": [
+      {
+        "name": "loadShader",
+        "parameterTypes": [
+          "com.sun.prism.ps.ShaderFactory",
+          "java.io.InputStream"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.prism.shader.Texture_LinearGradient_PAD_Loader",
+    "methods": [
+      {
+        "name": "loadShader",
+        "parameterTypes": [
+          "com.sun.prism.ps.ShaderFactory",
+          "java.io.InputStream"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.scenario.effect.impl.es2.ES2ShaderSource",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.sun.scenario.effect.impl.prism.PrRenderer",
+    "methods": [
+      {
+        "name": "createRenderer",
+        "parameterTypes": [
+          "com.sun.scenario.effect.FilterContext"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.scenario.effect.impl.prism.ps.PPSLinearConvolveShadowPeer",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "com.sun.scenario.effect.FilterContext",
+          "com.sun.scenario.effect.impl.Renderer",
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.scenario.effect.impl.prism.ps.PPSRenderer",
+    "methods": [
+      {
+        "name": "createRenderer",
+        "parameterTypes": [
+          "com.sun.scenario.effect.FilterContext"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.sun.xml.internal.stream.XMLInputFactoryImpl",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "java.io.FilePermission"
+  },
+  {
+    "name": "java.lang.Character",
+    "methods": [
+      {
+        "name": "isIdeographic",
+        "parameterTypes": [
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "java.lang.Class",
+    "methods": [
+      {
+        "name": "getModule",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "java.lang.Enum"
+  },
+  {
+    "name": "java.lang.Module",
+    "methods": [
+      {
+        "name": "getResourceAsStream",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "java.lang.Object",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "java.lang.RuntimePermission"
+  },
+  {
+    "name": "java.lang.Thread",
+    "fields": [
+      {
+        "name": "threadLocalRandomProbe"
+      }
+    ]
+  },
+  {
+    "name": "java.lang.invoke.MethodHandle"
+  },
+  {
+    "name": "java.net.NetPermission"
+  },
+  {
+    "name": "java.net.SocketPermission"
+  },
+  {
+    "name": "java.net.URLPermission",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String",
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "java.nio.ByteBuffer",
+    "methods": [
+      {
+        "name": "order",
+        "parameterTypes": [
+          "java.nio.ByteOrder"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "java.nio.ByteOrder",
+    "methods": [
+      {
+        "name": "nativeOrder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "java.security.AllPermission"
+  },
+  {
+    "name": "java.security.SecureRandomParameters"
+  },
+  {
+    "name": "java.security.SecurityPermission"
+  },
+  {
+    "name": "java.util.HashSet"
+  },
+  {
+    "name": "java.util.LinkedHashSet"
+  },
+  {
+    "name": "java.util.PropertyPermission"
+  },
+  {
+    "name": "java.util.concurrent.ArrayBlockingQueue"
+  },
+  {
+    "name": "java.util.concurrent.ForkJoinTask",
+    "fields": [
+      {
+        "name": "aux"
+      },
+      {
+        "name": "status"
+      }
+    ]
+  },
+  {
+    "name": "java.util.concurrent.atomic.AtomicBoolean",
+    "fields": [
+      {
+        "name": "value"
+      }
+    ]
+  },
+  {
+    "name": "java.util.concurrent.atomic.AtomicReference",
+    "fields": [
+      {
+        "name": "value"
+      }
+    ]
+  },
+  {
+    "name": "java.util.concurrent.atomic.Striped64",
+    "fields": [
+      {
+        "name": "base"
+      },
+      {
+        "name": "cellsBusy"
+      }
+    ]
+  },
+  {
+    "name": "java.util.concurrent.locks.AbstractOwnableSynchronizer"
+  },
+  {
+    "name": "java.util.concurrent.locks.AbstractQueuedSynchronizer"
+  },
+  {
+    "name": "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject"
+  },
+  {
+    "name": "java.util.concurrent.locks.ReentrantLock"
+  },
+  {
+    "name": "java.util.concurrent.locks.ReentrantLock$NonfairSync"
+  },
+  {
+    "name": "java.util.concurrent.locks.ReentrantLock$Sync"
+  },
+  {
+    "name": "javafx.fxml.FXMLLoader"
+  },
+  {
+    "name": "javafx.geometry.Insets",
+    "queryAllPublicMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "double"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "double",
+          "double",
+          "double",
+          "double"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.geometry.Pos",
+    "methods": [
+      {
+        "name": "valueOf",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.Camera"
+  },
+  {
+    "name": "javafx.scene.Group"
+  },
+  {
+    "name": "javafx.scene.Node",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "setFocusTraversable",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setPickOnBounds",
+        "parameterTypes": [
+          "boolean"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.ParallelCamera"
+  },
+  {
+    "name": "javafx.scene.Parent",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "javafx.scene.Scene"
+  },
+  {
+    "name": "javafx.scene.control.Button",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.ButtonBase",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "javafx.scene.control.ComboBox",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setVisibleRowCount",
+        "parameterTypes": [
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.ComboBoxBase",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "javafx.scene.control.ContextMenu",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "getItems",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.Control",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "setContextMenu",
+        "parameterTypes": [
+          "javafx.scene.control.ContextMenu"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.CustomMenuItem",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "javafx.scene.control.Label",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.Labeled",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "setFont",
+        "parameterTypes": [
+          "javafx.scene.text.Font"
+        ]
+      },
+      {
+        "name": "setMnemonicParsing",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setText",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setTextFill",
+        "parameterTypes": [
+          "javafx.scene.paint.Paint"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.ListView",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.Menu",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "getItems",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.MenuBar",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMenus",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.MenuItem",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setMnemonicParsing",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setText",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVisible",
+        "parameterTypes": [
+          "boolean"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.PopupControl",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.SeparatorMenuItem",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.SplitPane",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "getItems",
+        "parameterTypes": []
+      },
+      {
+        "name": "setDividerPositions",
+        "parameterTypes": [
+          "double[]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.TableColumnBase",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setPrefWidth",
+        "parameterTypes": [
+          "double"
+        ]
+      },
+      {
+        "name": "setText",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVisible",
+        "parameterTypes": [
+          "boolean"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.TextArea",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setWrapText",
+        "parameterTypes": [
+          "boolean"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.TextField",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setAlignment",
+        "parameterTypes": [
+          "javafx.geometry.Pos"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.TextInputControl",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "setEditable",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setPromptText",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.TreeTableColumn",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.control.TreeTableView",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "getColumns",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.effect.Effect"
+  },
+  {
+    "name": "javafx.scene.image.Image"
+  },
+  {
+    "name": "javafx.scene.image.ImageView",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setFitHeight",
+        "parameterTypes": [
+          "double"
+        ]
+      },
+      {
+        "name": "setFitWidth",
+        "parameterTypes": [
+          "double"
+        ]
+      },
+      {
+        "name": "setPreserveRatio",
+        "parameterTypes": [
+          "boolean"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.layout.AnchorPane",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "getBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.Node"
+        ]
+      },
+      {
+        "name": "getBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.Parent"
+        ]
+      },
+      {
+        "name": "getBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane"
+        ]
+      },
+      {
+        "name": "getBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Region"
+        ]
+      },
+      {
+        "name": "getBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.VBox"
+        ]
+      },
+      {
+        "name": "getLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.Node"
+        ]
+      },
+      {
+        "name": "getLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.Parent"
+        ]
+      },
+      {
+        "name": "getLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane"
+        ]
+      },
+      {
+        "name": "getLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Region"
+        ]
+      },
+      {
+        "name": "getLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.VBox"
+        ]
+      },
+      {
+        "name": "getRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.Node"
+        ]
+      },
+      {
+        "name": "getRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.Parent"
+        ]
+      },
+      {
+        "name": "getRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane"
+        ]
+      },
+      {
+        "name": "getRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Region"
+        ]
+      },
+      {
+        "name": "getRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.VBox"
+        ]
+      },
+      {
+        "name": "getTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.Node"
+        ]
+      },
+      {
+        "name": "getTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.Parent"
+        ]
+      },
+      {
+        "name": "getTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane"
+        ]
+      },
+      {
+        "name": "getTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Region"
+        ]
+      },
+      {
+        "name": "getTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.VBox"
+        ]
+      },
+      {
+        "name": "isBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.Parent"
+        ]
+      },
+      {
+        "name": "isBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane"
+        ]
+      },
+      {
+        "name": "isBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Region"
+        ]
+      },
+      {
+        "name": "isBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.VBox"
+        ]
+      },
+      {
+        "name": "isLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.Parent"
+        ]
+      },
+      {
+        "name": "isLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane"
+        ]
+      },
+      {
+        "name": "isLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Region"
+        ]
+      },
+      {
+        "name": "isLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.VBox"
+        ]
+      },
+      {
+        "name": "isRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.Parent"
+        ]
+      },
+      {
+        "name": "isRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane"
+        ]
+      },
+      {
+        "name": "isRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Region"
+        ]
+      },
+      {
+        "name": "isRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.VBox"
+        ]
+      },
+      {
+        "name": "isTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.Parent"
+        ]
+      },
+      {
+        "name": "isTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane"
+        ]
+      },
+      {
+        "name": "isTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Region"
+        ]
+      },
+      {
+        "name": "isTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.VBox"
+        ]
+      },
+      {
+        "name": "setBottomAnchor",
+        "parameterTypes": [
+          "java.lang.Object",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setBottomAnchor",
+        "parameterTypes": [
+          "javafx.css.Styleable",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setBottomAnchor",
+        "parameterTypes": [
+          "javafx.event.EventTarget",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.Node",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.Node",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.Parent",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.Parent",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Region",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Region",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.VBox",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setBottomAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.VBox",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setLeftAnchor",
+        "parameterTypes": [
+          "java.lang.Object",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setLeftAnchor",
+        "parameterTypes": [
+          "javafx.css.Styleable",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setLeftAnchor",
+        "parameterTypes": [
+          "javafx.event.EventTarget",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.Node",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.Node",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.Parent",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.Parent",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Region",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Region",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.VBox",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setLeftAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.VBox",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setRightAnchor",
+        "parameterTypes": [
+          "java.lang.Object",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setRightAnchor",
+        "parameterTypes": [
+          "javafx.css.Styleable",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setRightAnchor",
+        "parameterTypes": [
+          "javafx.event.EventTarget",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.Node",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.Node",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.Parent",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.Parent",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Region",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Region",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.VBox",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setRightAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.VBox",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setTopAnchor",
+        "parameterTypes": [
+          "java.lang.Object",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setTopAnchor",
+        "parameterTypes": [
+          "javafx.css.Styleable",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setTopAnchor",
+        "parameterTypes": [
+          "javafx.event.EventTarget",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.Node",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.Node",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.Parent",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.Parent",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Region",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.Region",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.VBox",
+          "java.lang.Double"
+        ]
+      },
+      {
+        "name": "setTopAnchor",
+        "parameterTypes": [
+          "javafx.scene.layout.VBox",
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.layout.HBox",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "getHgrow",
+        "parameterTypes": [
+          "javafx.scene.Node"
+        ]
+      },
+      {
+        "name": "getHgrow",
+        "parameterTypes": [
+          "javafx.scene.Parent"
+        ]
+      },
+      {
+        "name": "getHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Control"
+        ]
+      },
+      {
+        "name": "getHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Label"
+        ]
+      },
+      {
+        "name": "getHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Labeled"
+        ]
+      },
+      {
+        "name": "getHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Skinnable"
+        ]
+      },
+      {
+        "name": "getHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TextField"
+        ]
+      },
+      {
+        "name": "getHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TextInputControl"
+        ]
+      },
+      {
+        "name": "getHgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane"
+        ]
+      },
+      {
+        "name": "getHgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.Region"
+        ]
+      },
+      {
+        "name": "isHgrow",
+        "parameterTypes": [
+          "javafx.scene.Parent"
+        ]
+      },
+      {
+        "name": "isHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Control"
+        ]
+      },
+      {
+        "name": "isHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Label"
+        ]
+      },
+      {
+        "name": "isHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Labeled"
+        ]
+      },
+      {
+        "name": "isHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Skinnable"
+        ]
+      },
+      {
+        "name": "isHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TextField"
+        ]
+      },
+      {
+        "name": "isHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TextInputControl"
+        ]
+      },
+      {
+        "name": "isHgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane"
+        ]
+      },
+      {
+        "name": "isHgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.Region"
+        ]
+      },
+      {
+        "name": "setAlignment",
+        "parameterTypes": [
+          "javafx.geometry.Pos"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "java.lang.Object",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.css.Styleable",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.event.EventTarget",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.Node",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.Node",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.Parent",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.Parent",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Control",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Control",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Label",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Label",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Labeled",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Labeled",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Skinnable",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Skinnable",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TextField",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TextField",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TextInputControl",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TextInputControl",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.Region",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setHgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.Region",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setMargin",
+        "parameterTypes": [
+          "javafx.scene.Node",
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setMargin",
+        "parameterTypes": [
+          "javafx.scene.Parent",
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setMargin",
+        "parameterTypes": [
+          "javafx.scene.control.Control",
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setMargin",
+        "parameterTypes": [
+          "javafx.scene.control.Label",
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setMargin",
+        "parameterTypes": [
+          "javafx.scene.control.Labeled",
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setMargin",
+        "parameterTypes": [
+          "javafx.scene.control.Skinnable",
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setMargin",
+        "parameterTypes": [
+          "javafx.scene.layout.Region",
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setSpacing",
+        "parameterTypes": [
+          "double"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.layout.Pane",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "getChildren",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.layout.Priority",
+    "methods": [
+      {
+        "name": "valueOf",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.layout.Region",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "setMaxHeight",
+        "parameterTypes": [
+          "double"
+        ]
+      },
+      {
+        "name": "setMaxWidth",
+        "parameterTypes": [
+          "double"
+        ]
+      },
+      {
+        "name": "setMinHeight",
+        "parameterTypes": [
+          "double"
+        ]
+      },
+      {
+        "name": "setMinWidth",
+        "parameterTypes": [
+          "double"
+        ]
+      },
+      {
+        "name": "setPadding",
+        "parameterTypes": [
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setPrefHeight",
+        "parameterTypes": [
+          "double"
+        ]
+      },
+      {
+        "name": "setPrefWidth",
+        "parameterTypes": [
+          "double"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.layout.VBox",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "getVgrow",
+        "parameterTypes": [
+          "javafx.scene.Node"
+        ]
+      },
+      {
+        "name": "getVgrow",
+        "parameterTypes": [
+          "javafx.scene.Parent"
+        ]
+      },
+      {
+        "name": "getVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Control"
+        ]
+      },
+      {
+        "name": "getVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.ListView"
+        ]
+      },
+      {
+        "name": "getVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.MenuBar"
+        ]
+      },
+      {
+        "name": "getVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Skinnable"
+        ]
+      },
+      {
+        "name": "getVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.SplitPane"
+        ]
+      },
+      {
+        "name": "getVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TextArea"
+        ]
+      },
+      {
+        "name": "getVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TextInputControl"
+        ]
+      },
+      {
+        "name": "getVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TreeTableView"
+        ]
+      },
+      {
+        "name": "getVgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.HBox"
+        ]
+      },
+      {
+        "name": "getVgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane"
+        ]
+      },
+      {
+        "name": "getVgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.Region"
+        ]
+      },
+      {
+        "name": "isVgrow",
+        "parameterTypes": [
+          "javafx.scene.Parent"
+        ]
+      },
+      {
+        "name": "isVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Control"
+        ]
+      },
+      {
+        "name": "isVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.ListView"
+        ]
+      },
+      {
+        "name": "isVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.MenuBar"
+        ]
+      },
+      {
+        "name": "isVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Skinnable"
+        ]
+      },
+      {
+        "name": "isVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.SplitPane"
+        ]
+      },
+      {
+        "name": "isVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TextArea"
+        ]
+      },
+      {
+        "name": "isVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TextInputControl"
+        ]
+      },
+      {
+        "name": "isVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TreeTableView"
+        ]
+      },
+      {
+        "name": "isVgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.HBox"
+        ]
+      },
+      {
+        "name": "isVgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane"
+        ]
+      },
+      {
+        "name": "isVgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.Region"
+        ]
+      },
+      {
+        "name": "setMargin",
+        "parameterTypes": [
+          "javafx.scene.Node",
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setMargin",
+        "parameterTypes": [
+          "javafx.scene.Parent",
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setMargin",
+        "parameterTypes": [
+          "javafx.scene.control.Control",
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setMargin",
+        "parameterTypes": [
+          "javafx.scene.control.Skinnable",
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setMargin",
+        "parameterTypes": [
+          "javafx.scene.control.TextArea",
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setMargin",
+        "parameterTypes": [
+          "javafx.scene.control.TextInputControl",
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setMargin",
+        "parameterTypes": [
+          "javafx.scene.layout.HBox",
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setMargin",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane",
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setMargin",
+        "parameterTypes": [
+          "javafx.scene.layout.Region",
+          "javafx.geometry.Insets"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "java.lang.Object",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.css.Styleable",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.event.EventTarget",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.Node",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.Node",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.Parent",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.Parent",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Control",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Control",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.ListView",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.ListView",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.MenuBar",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.MenuBar",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Skinnable",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.Skinnable",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.SplitPane",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.SplitPane",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TextArea",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TextArea",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TextInputControl",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TextInputControl",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TreeTableView",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.control.TreeTableView",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.HBox",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.HBox",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.Pane",
+          "javafx.scene.layout.Priority"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.Region",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setVgrow",
+        "parameterTypes": [
+          "javafx.scene.layout.Region",
+          "javafx.scene.layout.Priority"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.paint.Color",
+    "queryAllPublicMethods": true,
+    "queryAllPublicConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "double",
+          "double",
+          "double",
+          "double"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.robot.Robot",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMouseX",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMouseY",
+        "parameterTypes": []
+      },
+      {
+        "name": "mouseMove",
+        "parameterTypes": [
+          "double",
+          "double"
+        ]
+      },
+      {
+        "name": "mousePress",
+        "parameterTypes": [
+          "javafx.scene.input.MouseButton[]"
+        ]
+      },
+      {
+        "name": "mouseRelease",
+        "parameterTypes": [
+          "javafx.scene.input.MouseButton[]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javafx.scene.shape.LineTo"
+  },
+  {
+    "name": "javafx.scene.shape.MoveTo"
+  },
+  {
+    "name": "javafx.scene.shape.Path"
+  },
+  {
+    "name": "javafx.scene.shape.PathElement"
+  },
+  {
+    "name": "javafx.scene.shape.Rectangle"
+  },
+  {
+    "name": "javafx.scene.shape.SVGPath"
+  },
+  {
+    "name": "javafx.scene.shape.Shape"
+  },
+  {
+    "name": "javafx.scene.text.Font"
+  },
+  {
+    "name": "javafx.scene.text.Text"
+  },
+  {
+    "name": "javafx.scene.transform.Transform"
+  },
+  {
+    "name": "javafx.scene.web.WebView"
+  },
+  {
+    "name": "javafx.stage.PopupWindow",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "javafx.stage.Stage"
+  },
+  {
+    "name": "javafx.stage.Window",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "getWindows",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "javax.persistence.Column"
+  },
+  {
+    "name": "javax.smartcardio.CardPermission"
+  },
+  {
+    "name": "jdk.internal.misc.Unsafe"
+  },
+  {
+    "name": "org.jooq.impl.SQLDataType"
+  },
+  {
+    "name": "org.jooq.util.cubrid.CUBRIDDataType"
+  },
+  {
+    "name": "org.jooq.util.derby.DerbyDataType"
+  },
+  {
+    "name": "org.jooq.util.firebird.FirebirdDataType"
+  },
+  {
+    "name": "org.jooq.util.h2.H2DataType"
+  },
+  {
+    "name": "org.jooq.util.hsqldb.HSQLDBDataType"
+  },
+  {
+    "name": "org.jooq.util.ignite.IgniteDataType"
+  },
+  {
+    "name": "org.jooq.util.mariadb.MariaDBDataType"
+  },
+  {
+    "name": "org.jooq.util.mysql.MySQLDataType"
+  },
+  {
+    "name": "org.jooq.util.postgres.PostgresDataType"
+  },
+  {
+    "name": "org.jooq.util.sqlite.SQLiteDataType"
+  },
+  {
+    "name": "org.jooq.util.yugabytedb.YugabyteDBDataType"
+  },
+  {
+    "name": "org.sqlite.JDBC"
+  },
+  {
+    "name": "org.testfx.framework.junit5.ApplicationExtension",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.testfx.toolkit.PrimaryStageApplication",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ru.raidan.books.db.model.cache.tables.pojos.BookCache",
+    "allDeclaredFields": true,
+    "allPublicFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setAnnotation",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setAnnotationPlain",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setBookId",
+        "parameterTypes": [
+          "java.lang.Integer"
+        ]
+      },
+      {
+        "name": "setCreated",
+        "parameterTypes": [
+          "java.lang.Long"
+        ]
+      },
+      {
+        "name": "setPicture",
+        "parameterTypes": [
+          "byte[]"
+        ]
+      },
+      {
+        "name": "setUpdated",
+        "parameterTypes": [
+          "java.lang.Long"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ru.raidan.books.db.model.cache.tables.pojos.BookHistory",
+    "allDeclaredFields": true,
+    "allPublicFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setBookId",
+        "parameterTypes": [
+          "java.lang.Integer"
+        ]
+      },
+      {
+        "name": "setCreated",
+        "parameterTypes": [
+          "java.lang.Long"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ru.raidan.books.db.model.library.tables.pojos.Archive",
+    "allDeclaredFields": true,
+    "allPublicFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setArchiveId",
+        "parameterTypes": [
+          "java.lang.Integer"
+        ]
+      },
+      {
+        "name": "setArchiveName",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ru.raidan.books.db.model.library.tables.pojos.Author",
+    "allDeclaredFields": true,
+    "allPublicFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setAuthorId",
+        "parameterTypes": [
+          "java.lang.Integer"
+        ]
+      },
+      {
+        "name": "setMiddleName",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setName",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setOrigin",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setSurname",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setTotalBooks",
+        "parameterTypes": [
+          "java.lang.Integer"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ru.raidan.books.db.model.library.tables.pojos.Book",
+    "allDeclaredFields": true,
+    "allPublicFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "dateProperty",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDate",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLang",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSeriesNumber",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTitle",
+        "parameterTypes": []
+      },
+      {
+        "name": "langProperty",
+        "parameterTypes": []
+      },
+      {
+        "name": "seriesNumberProperty",
+        "parameterTypes": []
+      },
+      {
+        "name": "setArchiveId",
+        "parameterTypes": [
+          "java.lang.Integer"
+        ]
+      },
+      {
+        "name": "setArchiveMatched",
+        "parameterTypes": [
+          "java.lang.Integer"
+        ]
+      },
+      {
+        "name": "setBookId",
+        "parameterTypes": [
+          "java.lang.Integer"
+        ]
+      },
+      {
+        "name": "setDate",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setFileIndex",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setFileName",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setKeywords",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setLang",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setSeries",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setSeriesNumber",
+        "parameterTypes": [
+          "java.lang.Integer"
+        ]
+      },
+      {
+        "name": "setSize",
+        "parameterTypes": [
+          "java.lang.Long"
+        ]
+      },
+      {
+        "name": "setTitle",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "titleProperty",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ru.raidan.books.db.model.library.tables.pojos.Genre",
+    "allDeclaredFields": true,
+    "allPublicFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setGenre",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setGenreId",
+        "parameterTypes": [
+          "java.lang.Integer"
+        ]
+      },
+      {
+        "name": "setTotalBooks",
+        "parameterTypes": [
+          "java.lang.Integer"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ru.raidan.books.db.model.library.tables.pojos.Language",
+    "allDeclaredFields": true,
+    "allPublicFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setLang",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setTotalBooks",
+        "parameterTypes": [
+          "java.lang.Integer"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ru.raidan.books.db.model.library.tables.pojos.Library",
+    "allDeclaredFields": true,
+    "allPublicFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setDescription",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setInpxLocation",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setLibraryLocation",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setTitle",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ru.raidan.books.db.model.library.tables.records.BookToGenreRecord",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ru.raidan.books.fb2.Fb2TextConverterTest",
+    "allDeclaredClasses": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "ru.raidan.books.operations.ImportServiceTest",
+    "allDeclaredClasses": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "ru.raidan.books.operations.InpxTestData",
+    "allDeclaredClasses": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "ru.raidan.books.ui.MainAppTest",
+    "allDeclaredFields": true,
+    "allDeclaredClasses": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "fullTest",
+        "parameterTypes": [
+          "org.testfx.api.FxRobot"
+        ]
+      },
+      {
+        "name": "start",
+        "parameterTypes": [
+          "javafx.stage.Stage"
+        ]
+      },
+      {
+        "name": "stop",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ru.raidan.books.ui.about.AboutController",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "initialize",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ru.raidan.books.ui.main.Controller",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "initialize",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.misc.Unsafe",
+    "fields": [
+      {
+        "name": "theUnsafe"
+      }
+    ]
+  },
+  {
+    "name": "sun.security.provider.NativePRNG",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.security.SecureRandomParameters"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sun.security.provider.SHA",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "[Ljava.lang.Boolean;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.lang.Byte;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.lang.Double;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.lang.Float;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.lang.Integer;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.lang.Long;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.lang.Object;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.lang.Short;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.lang.String;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.math.BigDecimal;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.math.BigInteger;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.sql.Date;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.sql.Time;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.sql.Timestamp;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.time.Instant;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.time.LocalDate;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.time.LocalDateTime;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.time.LocalTime;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.time.OffsetDateTime;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.time.OffsetTime;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.time.Year;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Ljava.util.UUID;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Lorg.jooq.Geography;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Lorg.jooq.Geometry;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Lorg.jooq.JSON;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Lorg.jooq.JSONB;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Lorg.jooq.Record;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Lorg.jooq.Result;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Lorg.jooq.RowId;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Lorg.jooq.XML;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Lorg.jooq.types.DayToSecond;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Lorg.jooq.types.UByte;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Lorg.jooq.types.UInteger;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Lorg.jooq.types.ULong;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Lorg.jooq.types.UShort;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Lorg.jooq.types.YearToMonth;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "[Lorg.jooq.types.YearToSecond;",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "org.jooq.impl.SQLDataType",
+    "condition": {
+      "typeReachable": "org.jooq.impl.DefaultDSLContext"
+    }
+  },
+  {
+    "name": "org.jooq.impl.SQLDataType",
+    "condition": {
+      "typeReachable": "org.jooq.impl.DefaultDataType"
+    }
+  },
+  {
+    "name": "org.jooq.impl.SQLDataType",
+    "allPublicFields": true,
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "org.jooq.util.cubrid.CUBRIDDataType",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "org.jooq.util.derby.DerbyDataType",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "org.jooq.util.firebird.FirebirdDataType",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "org.jooq.util.h2.H2DataType",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "org.jooq.util.hsqldb.HSQLDBDataType",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "org.jooq.util.ignite.IgniteDataType",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "org.jooq.util.mariadb.MariaDBDataType",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "org.jooq.util.mysql.MySQLDataType",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "org.jooq.util.postgres.PostgresDataType",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "org.jooq.util.sqlite.SQLiteDataType",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  },
+  {
+    "name": "org.jooq.util.yugabytedb.YugabyteDBDataType",
+    "condition": {
+      "typeReachable": "org.jooq.impl.SQLDataType"
+    }
+  }
+]

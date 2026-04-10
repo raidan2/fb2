@@ -1,0 +1,18 @@
+# Gralde build folders
+**/build
+gradle/**
+.gradle
+
+# Intellij project files
+**/.idea/
+**/*.iml
+**/*.iws
+**/out
+
+
+# Misc
+samples/**
+storage/**
+storage-h2/**
+*.jpg
+*.gz

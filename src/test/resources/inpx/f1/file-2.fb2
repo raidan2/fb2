@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0">
+  <description>
+    <title-info>
+      <genre>genre1</genre>
+      <author>
+        <first-name>Имя1</first-name>
+        <middle-name/>
+        <last-name>Фамилия1</last-name>
+        <id>833871f8-5b20-4e7e-a519-697ee3a4733e</id>
+      </author>
+      <book-title>Название 2</book-title>
+      <lang>ru</lang>
+    </title-info>
+  </description>
+<body><title><p>Имя1 Фамилия1</p>
+<p>Название 2</p>
+</title>
+<section><title><empty-line /></title>
+<p>Текст</p>
+</section>
+</body></FictionBook>
