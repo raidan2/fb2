@@ -1,6 +1,5 @@
 # Gralde build folders
 **/build
-gradle/**
 .gradle
 
 # Intellij project files
